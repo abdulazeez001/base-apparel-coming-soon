@@ -1,0 +1,75 @@
+$Desaturated-Red: hsl(0, 29%, 59%);
+$Soft-Red: hsl(0, 64%, 73%);
+$Dark-Grayish-Red: hsl(0, 6%, 24%);
+body{
+    margin: 0;
+    padding:0;
+    
+}
+#content{
+    display:grid;
+    grid-template-columns:1.5fr 1fr;
+    #section{
+        background: url(./images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        #logo{
+            margin:50px 100px 0px 150px;
+        }
+        #coming-soon{
+            margin:0px 100px;
+            padding: 50px;
+            h1{
+                font-size:60px;
+                letter-spacing:8px;
+                text-transform: uppercase;
+                span{
+                    color: $Desaturated-Red;
+                    text-transform: uppercase;
+                    font-weight:lighter;
+                }
+            }
+            p{
+                color: $Desaturated-Red;
+                word-spacing:2px;
+                line-height: 25px;
+                margin-top:-20px;
+            }
+        }
+       
+        
+    }
+    #section-img{
+        img{
+            width:100%;
+        }
+       
+     }
+   
+}
+#input{
+    input{
+        padding: 10px 200px 10px 10px;
+        border-radius:20px;
+        border-color:$Desaturated-Red;
+        border-width:1px;
+       
+    }
+       img{
+        padding :10px 30px;
+        background-color:$Desaturated-Red;
+        margin-bottom:-15px;
+        border-radius:20px;
+        margin-left:-60px;
+        box-shadow:1px 10px 5px hsl(0, 5%, 78%) ,1px 10px 5px hsl(0, 5%, 78%);
+
+       
+    }
+    img:hover{
+        transform:scale(1.1);
+        box-shadow:5px 5px 5px hsl(0, 5%, 78%);
+    }
+}
+
+
+
